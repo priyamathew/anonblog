@@ -1,0 +1,12 @@
+
+
+<% @posts.each do |post| %>
+<div class ="container">
+  <a href="/posts/<%= post.id %>"><%= post.title %></a>
+  <br/>
+  <%= post.body %>
+  <br/>
+  <br/>
+  </div>
+<% end %></p>
+

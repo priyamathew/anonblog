@@ -1,0 +1,146 @@
+body {
+  background-color: #66CCCC
+}
+
+
+/*styling for layout page*/
+.wrapper {
+  position: relative;
+  width: 1050px;
+  margin: auto;
+}
+
+.header {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+  text-align: center;
+  font-family: 'Oswald';
+}
+
+#tagline {
+  text-align: center;
+  font-family: 'Homemade Apple', cursive;
+  margin: 0px;
+}
+
+.new_post {
+ margin: 0px auto;
+ border: 1px dotted black;
+ width: 100px;
+ height: 50px;
+ text-align: center;
+ position: absolute;
+ top: 45px;
+ right: 50px;
+ bottom: 0px;
+ left: 600;
+ padding: 15px 5px 15px 5px;  
+ font-family: 'Oswald';
+ color:#CC0066;
+}
+
+/*general styling*/
+
+h1 {
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 75px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+
+th {
+  text-align: left;
+}
+
+a {
+  font-family: 'Oswald';
+  text-decoration: none;
+  color:#CC0066;
+}
+
+p {
+  padding: 0px 0px;
+  margin: 10px 10px;
+  font-family: 'Oswald';
+}
+
+.tag_wrapper {
+  margin: 20px auto;
+  width: 600px;
+  height: 80px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+
+.tag {
+  background:#CC0066;
+  color: #000033;
+  border: 2px solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 2px 1px 1px 2px;
+  overflow-y: auto;
+  text-align: left;
+  font-family: 'Oswald';
+  width: 100px;
+  text-align: center;
+  float: left;
+  margin-right: 25px;
+  font-size: 13px;
+}
+
+
+
+/*create post page styling*/
+
+.post_form_header {
+  font-family: 'Oswald';
+  font-size: 30px;
+  padding: 10px 10px 0px 0px;
+  vertical-align: center;
+}
+
+.post_form {
+  align: center;
+  margin: 0px 200px 200px;
+}
+
+label {
+  font-family: 'Oswald';
+}
+
+.field {
+  font-family: 'Oswald';
+  margin: 10px 10px;
+}
+
+.field#title {
+  width: 400px;
+  height: 20px;
+}
+
+.field#body {
+  width: 400px;
+  height: 100px;
+  padding: 0px 0px;
+}
+
+.field#button {
+
+  margin: 0px;
+  background-color: #E8E8E8;
+  color: #CC0066;
+  border: line;
+}
+
+

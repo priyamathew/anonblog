@@ -1,0 +1,16 @@
+<div class="container">
+  <h2><%= @post.title  %></h2>
+
+  <p><%= @post.body  %></p>
+</div>
+
+<div class="tag_wrapper">
+  <p>Tags:</p>
+<% if @post.tags.empty? %>
+  <p>add some tags!</p>
+<% else %>  
+  <% @post.tags.each do |tag| %>
+    <p class="tag"><%= tag.name %></p>
+  <% end %>
+<% end %>
+</div>
